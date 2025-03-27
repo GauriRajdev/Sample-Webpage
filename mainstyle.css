@@ -1,0 +1,32 @@
+.container{
+    width: 100%;
+    min-height: 200vh;
+    background: linear-gradient(135deg,rgb(228, 104, 125),pink);
+    padding: 20px;
+}
+.todo{
+    width: 100%;
+    max-width: 600px;
+    max-height: fit-content;
+    background-color: white;
+   margin: 100px auto 20px;
+   padding: 30px 30px 80px;
+   border-radius: 10px;
+
+}
+.todo h2{
+    display: flex; /* Enable Flexbox */
+    justify-content: center; /* Center content horizontally */
+     align-items: center; /* Align items vertically in the center */
+    padding: 15px;
+   /* text-align: center; /*Todolist heading aligned in center*/
+}
+.todo h2 img{
+    border-radius: 50%;
+    height: 50px;
+    width:55px
+    
+}
+a{
+    text-decoration: none;
+}
